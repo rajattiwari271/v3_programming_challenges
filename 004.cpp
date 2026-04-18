@@ -1,4 +1,4 @@
-// last lastOccurance
+// last lastOccurrance
 #include <iostream>
 #include <vector>
 using namespace std;
