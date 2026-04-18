@@ -53,6 +53,7 @@ int first = firstOccurance(arr,target);
         return 0;
     }
  int count = last - first +1 ;
+ return count;
 
 }
 
