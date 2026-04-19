@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-bool checkPelindrome(char word []){
+bool checkPalindrome(char word []){
     int i =0;
     int n = strlen(word);
     int  j = n -1;
@@ -21,5 +21,5 @@ bool checkPelindrome(char word []){
 
 int main (){
     char arr[100] = "racecar";
-    cout<<"Check Pelindrome : "<<checkPelindrome(arr);
+    cout<<"Check Palindrome : "<<checkPalindrome(arr);
 }
