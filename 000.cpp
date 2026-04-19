@@ -36,5 +36,5 @@ int main (){
     else {
         cout<<"Not found";
     }
- 
+ return 0;
 }
