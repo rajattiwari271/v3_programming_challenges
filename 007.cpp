@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int rotatedArray(vector<int> arr, int target){
+int rotatedArray(vector<int> & arr, int target){
     int s = 0;
     int e = arr.size()-1;
     while(s<=e){
@@ -23,7 +23,7 @@ int rotatedArray(vector<int> arr, int target){
         }
         
         else{
-            if(arr[mid]<=arr[e]){
+          
             if(arr[mid]<target && target <=arr[e]){
              s = mid +1;
                     
@@ -32,7 +32,7 @@ int rotatedArray(vector<int> arr, int target){
                 {
                   
                 e = mid -1;
-            }
+            
         }
     }
    
