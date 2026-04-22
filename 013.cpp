@@ -13,7 +13,8 @@ string reversOfString(string & rev ){
     return rev;
 }
 
-
+// example
+// reverse string updated
 int main (){
 string reverse;
 cout<<"Enter the string: ";
